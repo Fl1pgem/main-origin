@@ -1,0 +1,6 @@
+@use "../scss/presets" as *;
+@use "../scss/mixins" as *;
+
+.about {
+  @include section;
+}

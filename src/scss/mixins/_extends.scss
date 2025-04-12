@@ -1,0 +1,21 @@
+ @use "../presets" as *;
+
+%section {
+  padding-top: 110px;
+  padding-bottom: 90px;
+
+  text-align: center;
+
+  &__title {
+    margin-bottom: 35px;
+  }
+  &__description {
+    letter-spacing: $letter-spacing-sm;
+
+    color: $color-secondary;
+
+    font-weight: $font-weight-secondary;
+    font-weight: 400;
+    line-height: $line-height;
+  }
+}

@@ -1,0 +1,24 @@
+@use "../scss/presets" as *;
+@use "../scss/mixins" as *;
+
+.footer {
+  padding-top: 39.41px;
+  padding-bottom: 40px;
+
+  color: $color-white;
+  background-color: $color-primary;
+
+  &__title {
+    padding-bottom: 12px;
+
+    letter-spacing: $letter-spacing-sm;
+
+    font-weight: $font-weight-secondary;
+  }
+  &__description {
+    color: $color-light-gray;
+
+    font-weight: $font-weight-secondary;
+    line-height: $line-height-sm;
+  }
+}

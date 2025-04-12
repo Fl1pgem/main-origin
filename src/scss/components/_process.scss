@@ -1,0 +1,8 @@
+@use "../scss/presets" as *;
+@use "../scss/mixins" as *;
+
+.process {
+  background-color: $color-light-gray;
+
+  @include section;
+}

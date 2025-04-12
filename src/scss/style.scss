@@ -1,0 +1,13 @@
+@use "../scss/common" as *;
+@use "../scss/components" as *;
+
+@keyframes weight-scale {
+  0% {
+  }
+  100% {
+    text-shadow: rgba(0, 0, 0, 0.829) 0 0 1px;
+
+    font-size: 130%;
+  }
+}
+

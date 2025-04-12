@@ -1,0 +1,13 @@
+@use "../scss/presets" as *;
+@use "../scss/mixins" as *;
+
+.header {
+  padding-top: 69px;
+  padding-bottom: 141px;
+
+  background-color: $color-light-gray;
+
+  @include lg {
+    padding-bottom: 80px;
+  }
+}
