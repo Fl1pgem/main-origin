@@ -1,0 +1,48 @@
+@use "../scss/presets" as *;
+@use "../scss/mixins" as *;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  list-style-type: none;
+}
+
+html {
+  font-family: $font-family;
+  font-size: $font-size;
+  font-weight: $font-weight-secondary;
+  line-height: $line-height;
+}
+
+body {
+  position: relative;
+
+  margin: 0;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: $font-weight-primary;
+  line-height: $line-height-sm;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: $font-weight-primary;
+  line-height: $line-height-sm;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: $font-weight-secondary;
+}
+section {
+  max-width: 100% !important;
+}
+a {
+  text-decoration: none;
+
+  color: $color-black;
+}

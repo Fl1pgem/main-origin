@@ -1,0 +1,44 @@
+@use "../scss/presets" as *;
+@use "../scss/mixins" as *;
+
+.navbar {
+  margin-bottom: 162px;
+
+  @include lg {
+    margin-bottom: 70px;
+  }
+  @include sm {
+    margin-bottom: 50px;
+    &__list {
+      justify-content: center;
+    }
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-left: -0.76em;
+
+    gap: $gap;
+  }
+  &__link {
+    display: block;
+
+    padding: 0.5em 0.75em;
+
+    letter-spacing: $letter-spacing;
+    text-transform: uppercase;
+
+    &--active {
+      color: $color-primary;
+
+      font-weight: $font-weight-primary;
+    }
+  }
+  &__item:hover {
+    animation: weight-scale 0.3s;
+
+    animation-fill-mode: forwards;
+  }
+}
